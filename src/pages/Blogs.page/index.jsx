@@ -35,8 +35,8 @@ export default function Blogpage() {
 				</div>
 			</section>
 			<section className="px-4 py-20 md:px-20 xl:px-40">
-				<div className='flex flex-col items-center justify-between w-full px-4 py-10 text-white bg-gray-800 lg:py-20 lg:px-16 rounded-3xl mt-28 lg:flex-row'>
-					<div>
+				<div className='flex flex-col items-center justify-between w-full px-8 py-10 text-white bg-gray-800 lg:py-20 lg:px-16 rounded-3xl mt-28 lg:flex-row'>
+					<div className='mb-8'>
 						<h3 className='text-3xl font-bold'>
 							Let&apos;s bridge the tech skill together!
 						</h3>

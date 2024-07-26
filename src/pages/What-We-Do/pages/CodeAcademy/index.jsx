@@ -150,7 +150,7 @@ export default function CodeAcademy() {
       </section>
       <section className='px-4 py-20 md:px-20 xl:px-40 text-[#0B4A6F] bg-gray-50/80'>
         <div className='flex flex-col gap-8 text-left'>
-          <h1 className='w-full text-lg font-bold lg:text-3xl xl:w-3/5 md:text-5xl'>
+          <h1 className='w-full text-lg font-bold lg:text-4xl xl:w-3/5 md:text-3xl'>
             <span className='block w-full'>
               Why Choose D-Pia Coding Academy?
             </span>
@@ -196,9 +196,9 @@ export default function CodeAcademy() {
             </ul>
           </div>
         </div>
-        <div className='bg-[#001F6B] text-white py-10 lg:py-20 flex-col flex items-center xl:flex-row md:px-20 justify-between px-4 xl:px-16 w-full rounded-3xl mt-28'>
-          <div>
-            <h3 className='text-3xl font-bold'>
+        <div className='bg-[#001F6B] text-white py-10 lg:py-20 flex-col flex items-center xl:flex-row md:px-20 justify-between px-4 xl:px-16 w-full rounded-3xl mt-28 space-y-4'>
+          <div className='mb-4'>
+            <h3 className='text-3xl font-boldtext-left'>
               Let&apos;s bridge the tech skill together!
             </h3>
             <p className='mt-4 text-xl font-light'>

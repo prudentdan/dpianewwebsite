@@ -39,7 +39,7 @@ export default function About() {
             />
           </div>
           <div className='w-full xl:w-1/2'>
-            <h2 className='mb-8 text-3xl font-semibold md:text-5xl'>
+            <h2 className='mb-8 text-3xl font-semibold text-center md:text-5xl lg:text-left'>
               The Genesis
             </h2>
             <div className='flex flex-col text-base xl:font-semibold md:text-lg gap-y-2'>
@@ -161,25 +161,25 @@ export default function About() {
       </section>
       <section className='bg-[#001F6B] h-fit  py-10 lg:py-20 text-white mt-16'>
         <div className='flex flex-col items-center'>
-          <div className='px-4 space-y-3 text-center xl:w-4/5 md:px-20 lg:px-40'>
-            <h2 className='text-xl font-semibold lg:text-4xl xl:text-5xl'>
+          <div className='px-4 space-y-4 text-center xl:w-4/5 md:px-20 lg:px-40'>
+            <h2 className='text-xl font-semibold lg:text-3xl xl:text-5xl'>
               Meet the visionary minds steering D-Pia towards a future defined
               by innovation and excellence.
             </h2>
-            <p className='font-normal text-md xl:text-xl text-white/90'>
+            <p className='font-normal text-md xl:text-xl text-white/80'>
               Explore the profiles of our visionary leaders who are instrumental
               in steering D-Pia towards new heights in the ever-evolving
               landscape of technology and business
             </p>
           </div>
           <div className='mt-8'>
-            <div className='flex flex-wrap items-center justify-center xl:gap-4'>
+            <div className='flex flex-col flex-wrap items-center justify-center lg:flex-row xl:gap-4'>
               <div className='relative overflow-hidden h-80 w-72 group'>
                 <div>
                   <img
                     src={EmmanuelOlujobi}
                     alt='emmanuel olujobi - profile'
-                    className='object-contain w-72'
+                    className='object-contain w-fit'
                   />
                 </div>
                 <div className='absolute bottom-2 px-2 py-2 space-y-1 text-left translate-x-[1.3em] bg-gray-400 h-[11em] opacity-100 xl:opacity-0 w-[15.2em] bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 xl:group-hover:translate-y-0 xl:group-hover:opacity-100 transition-all duration-1000'>
@@ -280,7 +280,7 @@ export default function About() {
       </section>
       <section className='bg-[#F5FBFF] text-[#0B4A6F] py-10 lg:py-20 px-4 md:px-20 xl:px-40'>
         <div className='flex flex-col items-center lg:flex-row h-fit lg:justify-between '>
-          <div className='mb-8 lg:w-1/2 lg:mb-0'>
+          <div className='w-full mb-8 xl:w-1/2 lg:mb-0'>
             <p className='text-[#C4320A] font-bold text-center lg:text-left text-sm md:text-xl mb-4'>
               The Heartbeat of D-Pia
             </p>

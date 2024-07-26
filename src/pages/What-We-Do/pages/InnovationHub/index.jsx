@@ -117,9 +117,9 @@ export default function InnovationHub() {
             </ul>
           </div>
         </div>
-        <div className='bg-[#001F6B] text-white py-16 flex flex-col gap-y-4 items-center justify-between px-4 lg:px-16 w-full rounded-3xl mt-28'>
+        <div className='bg-[#001F6B] text-white py-16 flex flex-col gap-y-4 items-center justify-between px-8 lg:px-16 w-full rounded-3xl mt-28'>
           <div>
-            <p className='mt-4 text-2xl font-semibold lg:text-4xl'>
+            <p className='mt-4 text-xl font-semibold lg:text-4xl'>
               At D-Pia Innovation Hub, we believe in providing the perfect
               environment for your success. Join us in creating a community
               where diverse minds collaborate, innovate, and turn ideas into

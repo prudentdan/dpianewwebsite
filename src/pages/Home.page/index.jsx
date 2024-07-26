@@ -87,12 +87,12 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div className='min-h-screen flex flex-wrap justify-between w-full gap-2 px-6 md:px-20 xl:px-40 py-10 lg:py-20 text-[#0B4A6F]'>
+          <div className='h-fit flex flex-wrap justify-between w-full gap-2 px-6 md:px-20 xl:px-40 py-10 lg:py-20 text-[#0B4A6F]'>
             <div className='w-full lg:w-[45%] text-balance lg:text-left'>
               <h2 className='mb-4 text-2xl font-bold text-center lg:text-3xl xl:text-left'>
                 Who We Are
               </h2>
-              <div className='flex flex-col text-base xl:text-lg xl:text-left gap-y-2'>
+              <div className='flex flex-col text-base xl:text-lg xl:text-left gap-y-4'>
                 <p>
                   D-Pia Innovations Limited began as a full fledged information
                   technology company but more recently has evolved into a
@@ -299,7 +299,7 @@ export default function Home() {
           </div>
         </section>
         <section className='bg-[#001F6B] text-white py-10 lg:py-20 '>
-          <div className='flex flex-col h-full gap-8 px-4 md:px-20 xl:px-40 xl:flex-row'>
+          <div className='flex flex-col justify-between h-full gap-8 px-4 md:px-20 xl:px-40 xl:flex-row'>
             <div className='flex flex-col justify-center h-full space-y-6 text-center lg:text-left xl:w-1/2'>
               <h3 className='text-3xl font-semibold xl:text-4xl'>
                 Our Culture

@@ -4,9 +4,8 @@ export default function useClickOutside(ref, callback) {
 		const handleClickOutside = (event) => {
 			event.preventDefault()
 			if (ref && ref.current && !ref.current.contains(event.target)) {
-				setTimeout(() =>
-					callback()
-					, 3500)
+
+				callback()
 			}
 		}
 		document.addEventListener('click', handleClickOutside, true)
